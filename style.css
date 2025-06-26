@@ -1,0 +1,48 @@
+body{
+  font-family: cursive;
+}
+.heading{
+  margin-left: 250px;
+  font-size: 30px;
+}
+.date{
+  height: 40px;
+
+  border-style: solid;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.todo{
+  height: 40px;
+  border-style: solid;
+  border-radius: 5px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.add-button{
+  background-color: rgb(13, 109, 13);
+  color: white;
+  height: 44px;
+  font-size: 15px;
+  border-color: transparent;
+  border-radius: 5px;
+}
+.delete-button{
+  background-color: rgb(145, 17, 17);
+  color: white;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  border-color: transparent;
+  border-radius: 5px;
+} 
+.text,
+.top-line{
+  font-size: 20px;
+  margin-top: 25px;
+  margin-left: 15px;
+  display: grid;
+  grid-template-columns: 260px 200px 100px;
+  row-gap: 15px;
+  column-gap: 15px;
+}

@@ -6,7 +6,7 @@ body{
   font-size: 30px;
 }
 .date{
-  height: 40px;
+  height: 43px;
 
   border-style: solid;
   border-radius: 5px;
@@ -22,7 +22,7 @@ body{
 .add-button{
   background-color: rgb(13, 109, 13);
   color: white;
-  height: 44px;
+  height: 46px;
   font-size: 15px;
   border-color: transparent;
   border-radius: 5px;
@@ -45,4 +45,8 @@ body{
   grid-template-columns: 260px 200px 100px;
   row-gap: 15px;
   column-gap: 15px;
+  align-items: vertical;
+}
+.top-line{
+  align-items: stretch;
 }
